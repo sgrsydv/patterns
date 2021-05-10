@@ -16,8 +16,8 @@ export default function FirstPost() {
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
             <div class="text-center mb-20">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Abstract Factory pattern</h1>
-              <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.</p>
+              <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Factory method pattern</h1>
+              <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">In class-based programming, the factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created.</p>
               <div class="flex mt-6 justify-center">
                 <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
               </div>

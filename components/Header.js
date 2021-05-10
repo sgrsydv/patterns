@@ -16,7 +16,7 @@ const headerStyle = {
               </svg>
               <span class="ml-3 text-xl">Design Patterns</span>
             </a>
-            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            {/* <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
               <a class="mr-5 hover:text-gray-900">First Link</a>
               <a class="mr-5 hover:text-gray-900">Second Link</a>
               <a class="mr-5 hover:text-gray-900">Third Link</a>
@@ -26,7 +26,7 @@ const headerStyle = {
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
-            </button>
+            </button> */}
           </div>
         </header>
   );
