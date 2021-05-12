@@ -15,7 +15,7 @@ export default function FirstPost() {
 
       <main>
         <section class="text-gray-600 body-font">
-          <div class="container py-24 px-5 mx-auto pb-0">
+          <div class="container pt-24 px-5 mx-auto pb-0">
             <div class="text-center">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Abstract Factory pattern</h1>
               <p class="text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.</p>
