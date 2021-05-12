@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import 'tailwindcss/tailwind.css'
 import Layout from '../../components/Layout'
+import Image from 'next/image'
 
 export default function FirstPost() {
   return (
@@ -14,8 +15,8 @@ export default function FirstPost() {
 
       <main>
         <section class="text-gray-600 body-font">
-          <div class="container px-5 py-24 mx-auto">
-            <div class="text-center mb-20">
+          <div class="container py-24 mx-auto">
+            <div class="text-center">
               <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Abstract Factory pattern</h1>
               <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.</p>
               <div class="flex mt-6 justify-center">
@@ -23,7 +24,7 @@ export default function FirstPost() {
               </div>
             </div>
 
-            <div class="flex flex-wrap w-full">
+            {/* <div class="flex flex-wrap w-full">
               <div class="lg:w-2/5 md:w-1/2 md:pr-1 md:py-6 mx-auto">
                 <div class="flex relative pb-12">
                   <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
@@ -96,9 +97,24 @@ export default function FirstPost() {
                   </div>
                 </div>
               </div>
+            </div> */}
+
+
+          </div>
+        </section>
+        {/* <section class="mx-auto">
+          <Image src="/abstract-factory-pattern.svg" layout="fill" objectFit="cover" />
+        </section> */}
+        
+        <section class="text-gray-600 body-font">
+          <div class="container mx-auto flex  md:flex-row flex-col items-center">
+            
+            <div class="lg:max-w-3xl lg:w-full mx-auto">
+              <img class="rounded" alt="hero" src="/abstract-factory-pattern.svg"/>
             </div>
           </div>
         </section>
+
       </main>
 
     </Layout>
