@@ -17,7 +17,7 @@ export default function FirstPost() {
         <section class="text-gray-600 body-font">
           <div class="container py-24 px-5 mx-auto pb-0">
             <div class="text-center">
-              <h1 class="sm:text-4xl text-3xl font-medium title-font text-gray-900 mb-4">Abstract Factory pattern</h1>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Abstract Factory pattern</h1>
               <p class="text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.</p>
               <div class="flex mt-6 justify-center">
                 <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
@@ -40,7 +40,7 @@ export default function FirstPost() {
               <img class="rounded" alt="hero" src="/abstract-factory-pattern.svg"/>
             </div>
             <div class="lg:w-3/6 w-full">
-              <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Description</h1>
+              <h1 class="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">Description</h1>
               <p class="text-lg mb-8 leading-relaxed">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes. In normal usage, the client software creates a concrete implementation of the abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of the theme. The client does not know (or care) which concrete objects it gets from each of these internal factories, since it uses only the generic interfaces of their products. This pattern separates the details of implementation of a set of objects from their general usage and relies on object composition, as object creation is implemented in methods exposed in the factory interface.</p>
               {/* <div class="flex justify-center">
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
