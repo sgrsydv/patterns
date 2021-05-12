@@ -39,7 +39,7 @@ export default function FirstPost() {
             <div class="lg:max-w-3xl lg:w-full mx-auto">
               <img class="rounded" alt="hero" src="/abstract-factory-pattern.svg"/>
             </div>
-            <div class="lg:w-3/5 md:w-3/5">
+            <div class="lg:w-2/5 w-full">
               <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Description</h1>
               <p class="text-lg mb-8 leading-relaxed">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes. In normal usage, the client software creates a concrete implementation of the abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of the theme. The client does not know (or care) which concrete objects it gets from each of these internal factories, since it uses only the generic interfaces of their products. This pattern separates the details of implementation of a set of objects from their general usage and relies on object composition, as object creation is implemented in methods exposed in the factory interface.</p>
               {/* <div class="flex justify-center">
