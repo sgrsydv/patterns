@@ -28,7 +28,7 @@ export default function FirstPost() {
             </div>
           </div>
         </section>
-        
+
         {/* <section class="text-gray-600 body-font">
           <div class="container mx-auto flex  md:flex-row flex-col items-center">
             <div class="lg:max-w-3xl lg:w-full mx-auto">
@@ -40,10 +40,10 @@ export default function FirstPost() {
         <section class="text-gray-600 body-font">
           <div class="container mx-auto px-5 flex items-center justify-center flex-col">
             <div class="lg:max-w-3xl lg:w-full mx-auto">
-              <img class="rounded" alt="Abstract-factory-pattern" src="/abstract-factory-pattern.svg"/>
+              <img class="rounded" alt="Abstract-factory-pattern" src="/abstract-factory-pattern.svg" />
             </div>
             <div class="lg:w-2/5 w-full">
-              <h1 class="title-font sm:text-3xl text-2xl font-medium text-gray-900">Description</h1>
+              <h1 class="py-4 title-font sm:text-3xl text-2xl font-medium text-gray-900">Description</h1>
               <p class="text-lg mb-8 leading-relaxed">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes. In normal usage, the client software creates a concrete implementation of the abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of the theme. The client does not know (or care) which concrete objects it gets from each of these internal factories, since it uses only the generic interfaces of their products. This pattern separates the details of implementation of a set of objects from their general usage and relies on object composition, as object creation is implemented in methods exposed in the factory interface.</p>
               {/* <div class="flex justify-center">
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
@@ -56,7 +56,7 @@ export default function FirstPost() {
         <section class="text-gray-600 body-font">
           <div class="container mx-auto px-5 flex flex-wrap">
             <div class="lg:w-2/5 md:w-1/2 md:pr-10 py-6 my-6 px-3 mx-auto flex items-center bg-gray-100">
-              <img class="rounded w-12 h-12" alt="Lightbulb" src="/lightbulb.svg"/>
+              <img class="rounded w-12 h-12" alt="Lightbulb" src="/lightbulb.svg" />
               <p class="px-5">Specialised classes not meant to be <b>imported</b> at client code.</p>
             </div>
           </div>
@@ -66,6 +66,7 @@ export default function FirstPost() {
           <div class="container mx-auto px-5 flex flex-wrap">
             <div class="flex flex-wrap w-full">
               <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6 mx-auto">
+                <h1 class="pb-10 title-font sm:text-3xl text-2xl font-medium text-gray-900">Implementation</h1>
                 <div class="flex relative pb-12">
                   <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                     <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -124,7 +125,7 @@ export default function FirstPost() {
                     <p class="leading-relaxed">Create specialised products which implements APIs decided with the help of abstract products.</p>
                   </div>
                 </div>
-                
+
                 <div class="flex relative pb-12">
                   <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                     <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
