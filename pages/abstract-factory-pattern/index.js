@@ -29,33 +29,21 @@ export default function FirstPost() {
           </div>
         </section>
 
-        {/* <section class="text-gray-600 body-font">
-          <div class="container mx-auto flex  md:flex-row flex-col items-center">
-            <div class="lg:max-w-3xl lg:w-full mx-auto">
-              <img class="rounded" alt="hero" src="/abstract-factory-pattern.svg"/>
-            </div>
-          </div>
-        </section> */}
-
         <section class="text-gray-600 body-font">
           <div class="container mx-auto px-5 flex items-center justify-center flex-col">
             <div class="lg:max-w-3xl lg:w-full mx-auto">
               <img class="rounded" alt="Abstract-factory-pattern" src="/abstract-factory-pattern.svg" />
             </div>
-            <div class="lg:w-2/5 w-full">
+            <div class="lg:w-3/6 w-full">
               <h1 class="py-4 title-font sm:text-3xl text-2xl font-medium text-gray-900">Description</h1>
               <p class="text-lg mb-8 leading-relaxed">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes. In normal usage, the client software creates a concrete implementation of the abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of the theme. The client does not know (or care) which concrete objects it gets from each of these internal factories, since it uses only the generic interfaces of their products. This pattern separates the details of implementation of a set of objects from their general usage and relies on object composition, as object creation is implemented in methods exposed in the factory interface.</p>
-              {/* <div class="flex justify-center">
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-              </div> */}
             </div>
           </div>
         </section>
 
         <section class="text-gray-600 body-font">
           <div class="container mx-auto px-5 flex flex-wrap">
-            <div class="lg:w-2/5 md:w-1/2 md:pr-10 py-6 my-6 px-3 mx-auto flex items-center bg-gray-100">
+            <div class="lg:w-3/6 md:w-1/2 md:pr-10 py-6 my-6 px-3 mx-auto flex items-center bg-gray-100">
               <img class="rounded w-12 h-12" alt="Lightbulb" src="/lightbulb.svg" />
               <p class="px-5">Specialised classes not meant to be <b>imported</b> at client code.</p>
             </div>
@@ -65,7 +53,7 @@ export default function FirstPost() {
         <section class="text-gray-600 body-font">
           <div class="container mx-auto px-5 flex flex-wrap">
             <div class="flex flex-wrap w-full">
-              <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6 mx-auto">
+              <div class="lg:w-3/6 md:w-1/2 md:pr-10 md:py-6 mx-auto">
                 <h1 class="pb-10 title-font sm:text-3xl text-2xl font-medium text-gray-900">Implementation</h1>
                 <div class="flex relative pb-12">
                   <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
@@ -153,6 +141,25 @@ export default function FirstPost() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-gray-600 body-font">
+          <div class="container mx-auto px-5 flex items-center justify-center flex-col">
+            <div class="lg:w-3/6 w-full">
+              <h1 class="py-4 title-font sm:text-3xl text-2xl font-medium text-gray-900">Example</h1>
+              <p class="text-lg mb-8 leading-relaxed">UI applications generally require to create different forms to read user input. To read specific type of input, a standard input form is required. Application consists different modules to treat these forms generally. For example, layout creation module doesn't require to know about kind of form, it just needs to know sizing and position information about form. So Layout creation module should treat Textbox, RadioBox, CheckBox etc. generally. These specific forms could be implement common interface like GenericForm. This common abstraction can be later handed over to different prodect modules and treated generally.
+              <br/><br/>To create these specialized forms, project can contain a factory. This factory can create different specialized forms based on input configuration and create a GenericForm. Based on style of input configuration, project can have different implementation of factory. Let's say configuration is file exported of design tool like Sketch and Figma. Now, to create forms from Sketch configuration file, project needs to have SketchFactory and for Figma, FigmaFactory.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-gray-600 body-font">
+          <div class="container mx-auto px-5 flex items-center justify-center flex-col">
+            <div class="lg:w-3/6 w-full">
+              <h1 class="py-4 title-font sm:text-3xl text-2xl font-medium text-gray-900">Summary</h1>
+              <p class="text-lg mb-8 leading-relaxed">If <b>multiple themes</b> exists to create collection of <b>related</b> objects then this pattern is good choice. If multiple themes exists but objects are not related then see next pattern: Factory method pattern.</p>
             </div>
           </div>
         </section>
