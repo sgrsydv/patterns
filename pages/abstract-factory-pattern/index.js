@@ -14,10 +14,10 @@ export default function FirstPost() {
       </Head>
 
       <main>
-        <div class="fixed lg:inset-y-1/3 sm:bottom-0 left-0 w-20 h-20 my-10 mx-10 bg-gray-100 rounded-full grid self-center">
+        <div class="fixed bottom-0 lg:left-0 lg:inset-y-1/3 w-14 h-14 md:w-20 md:h-20 my-5 mx-10 bg-gray-100 rounded-full grid self-center">
         </div>
 
-        <div class="fixed inset-y-1/3 right-0 w-20 h-20 my-10 mx-10 bg-gray-100 rounded-full grid self-center">
+        <div class="fixed right-0 bottom-0 lg:inset-y-1/3 w-14 h-14 md:w-20 md:h-20 my-5 mx-10 bg-gray-100 rounded-full grid self-center">
         </div>
 
         <section class="text-gray-600 body-font">
