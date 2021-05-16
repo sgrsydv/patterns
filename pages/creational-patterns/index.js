@@ -8,7 +8,7 @@ export default function FirstPost() {
     <Layout>
 
       <Head>
-        <title>Home: Desing patterns</title>
+        <title>Home: Design patterns</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

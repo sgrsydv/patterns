@@ -9,7 +9,7 @@ export default function FirstPost() {
     <Layout>
 
       <Head>
-        <title>Home: Desing patterns</title>
+        <title>Abstract Factory Pattern</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -17,7 +17,7 @@ export default function FirstPost() {
         <section class="text-gray-600 body-font">
           <div class="container pt-24 px-5 mx-auto pb-0">
             <div class="text-center">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Abstract Factory pattern</h1>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Abstract Factory Pattern</h1>
               <p class="text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.</p>
               <div class="flex mt-6 justify-center">
                 <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
@@ -37,7 +37,7 @@ export default function FirstPost() {
         <section class="text-gray-600 body-font">
           <div class="container mx-auto px-5 flex items-center justify-center flex-col">
             <div class="lg:max-w-3xl lg:w-full mx-auto">
-              <img class="rounded" alt="hero" src="/abstract-factory-pattern.svg"/>
+              <img class="rounded" alt="Abstract-factory-pattern" src="/abstract-factory-pattern.svg"/>
             </div>
             <div class="lg:w-2/5 w-full">
               <h1 class="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">Description</h1>
@@ -53,7 +53,7 @@ export default function FirstPost() {
         <section class="text-gray-600 body-font">
           <div class="container mx-auto px-5 flex flex-wrap">
             <div class="lg:w-2/5 md:w-1/2 md:pr-10 py-6 my-6 px-3 mx-auto flex items-center bg-gray-100">
-              <img class="rounded w-12 h-12" alt="hero" src="/lightbulb.svg"/>
+              <img class="rounded w-12 h-12" alt="Lightbulb" src="/lightbulb.svg"/>
               <p class="px-5">Specialised classes not meant to be <b>imported</b> at client code.</p>
             </div>
           </div>
