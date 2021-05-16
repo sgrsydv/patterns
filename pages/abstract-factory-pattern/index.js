@@ -14,6 +14,12 @@ export default function FirstPost() {
       </Head>
 
       <main>
+        <div class="fixed lg:inset-y-1/3 sm:bottom-0 left-0 w-20 h-20 my-10 mx-10 bg-gray-100 rounded-full grid self-center">
+        </div>
+
+        <div class="fixed inset-y-1/3 right-0 w-20 h-20 my-10 mx-10 bg-gray-100 rounded-full grid self-center">
+        </div>
+
         <section class="text-gray-600 body-font">
           <div class="container pt-24 px-5 mx-auto pb-0">
             <div class="text-center">
@@ -45,7 +51,7 @@ export default function FirstPost() {
           <div class="container mx-auto px-5 flex flex-wrap">
             <div class="lg:w-3/6 md:w-1/2 md:pr-10 py-6 my-6 px-3 mx-auto flex items-center bg-gray-100">
               <img class="rounded w-12 h-12" alt="Lightbulb" src="/lightbulb.svg" />
-              <p class="px-5">Specialised classes not meant to be <b>imported</b> at client code.</p>
+              <p class="px-5">Specialised classes not meant to be <b>imported</b> outside module.</p>
             </div>
           </div>
         </section>
