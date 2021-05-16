@@ -17,7 +17,10 @@ export default function FirstPost() {
         <section class="text-gray-600 body-font">
           <div class="container pt-24 px-5 mx-auto pb-0">
             <div class="text-center">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Abstract Factory Pattern</h1>
+              <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Abstract Factory Pattern</h1>
+              <Link href="/creational-patterns">
+                <a class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest my-4">CREATIONAL PATTERNS</a>
+              </Link>
               <p class="text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.</p>
               <div class="flex mt-6 justify-center">
                 <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
@@ -150,6 +153,12 @@ export default function FirstPost() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="flex mt-6 justify-center">
+            <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
           </div>
         </section>
 
