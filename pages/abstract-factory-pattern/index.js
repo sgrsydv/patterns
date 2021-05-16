@@ -52,6 +52,15 @@ export default function FirstPost() {
 
         <section class="text-gray-600 body-font">
           <div class="container mx-auto px-5 flex flex-wrap">
+            <div class="lg:w-2/5 md:w-1/2 md:pr-10 py-6 my-6 px-3 mx-auto flex items-center bg-gray-100">
+              <img class="rounded w-12 h-12" alt="hero" src="/lightbulb.svg"/>
+              <p class="px-5">Specialised classes not meant to be <b>imported</b> at client code.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-gray-600 body-font">
+          <div class="container mx-auto px-5 flex flex-wrap">
             <div class="flex flex-wrap w-full">
               <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6 mx-auto">
                 <div class="flex relative pb-12">
@@ -65,7 +74,7 @@ export default function FirstPost() {
                   </div>
                   <div class="flex-grow pl-4">
                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1</h2>
-                    <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                    <p class="leading-relaxed">Determine construction theme for your object. To have different varients(specialised factories) of abstract factory common theme is necessary.</p>
                   </div>
                 </div>
                 <div class="flex relative pb-12">
@@ -79,7 +88,7 @@ export default function FirstPost() {
                   </div>
                   <div class="flex-grow pl-4">
                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2</h2>
-                    <p class="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
+                    <p class="leading-relaxed">Find correct level of abstraction for your products. Create all required abstract products which relates to your construction theme.</p>
                   </div>
                 </div>
                 <div class="flex relative pb-12">
@@ -94,7 +103,7 @@ export default function FirstPost() {
                   </div>
                   <div class="flex-grow pl-4">
                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3</h2>
-                    <p class="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
+                    <p class="leading-relaxed">Create abstraction factory and include interface(methods) to create abstract products which we detemined in step 1.</p>
                   </div>
                 </div>
                 <div class="flex relative pb-12">
@@ -109,7 +118,22 @@ export default function FirstPost() {
                   </div>
                   <div class="flex-grow pl-4">
                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4</h2>
-                    <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                    <p class="leading-relaxed">Create specialised products which implements APIs decided with the help of abstract products.</p>
+                  </div>
+                </div>
+                
+                <div class="flex relative pb-12">
+                  <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                  </div>
+                  <div class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                  </div>
+                  <div class="flex-grow pl-4">
+                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 5</h2>
+                    <p class="leading-relaxed">Create specialised factories which implements APIs decided with the help of abstract factory.</p>
                   </div>
                 </div>
                 <div class="flex relative">
@@ -121,7 +145,7 @@ export default function FirstPost() {
                   </div>
                   <div class="flex-grow pl-4">
                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH</h2>
-                    <p class="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
+                    <p class="leading-relaxed">Inject correct factory to your application at compile or runtime and create products. Viola!</p>
                   </div>
                 </div>
               </div>
@@ -133,7 +157,9 @@ export default function FirstPost() {
           <div class="container px-5 py-24 mx-auto">
             <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
               <h1 class="flex-grow break-words sm:pr-16 text-2xl font-medium title-font text-gray-900">Wikipedia</h1>
-              <button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">VISIT</button>
+              <button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">
+                <a href="https://en.wikipedia.org/wiki/Abstract_factory_pattern" target="_blank">VISIT</a>
+              </button>
             </div>
           </div>
         </section>
