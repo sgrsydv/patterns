@@ -14,7 +14,7 @@ export default function FirstPost() {
       </Head>
 
       <main>
-        <div class="fixed bottom-0 lg:left-0 lg:inset-y-1/3 w-14 h-14 md:w-20 md:h-20 my-5 mx-10 bg-gray-100 rounded-full grid self-center">
+        <div class="fixed bottom-0 lg:left-0 lg:inset-y-72 w-14 h-14 md:w-20 md:h-20 my-5 mx-10 bg-gray-100 hover:bg-gray-200 rounded-full grid self-center">
           <Link href="">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4">
               <img class="rounded px-5 py-5 md:px-7 md:py-7" alt="Lightbulb" src="/previous.svg" />
@@ -22,7 +22,7 @@ export default function FirstPost() {
           </Link>
         </div>
 
-        <div class="fixed right-0 bottom-0 lg:inset-y-1/3 w-14 h-14 md:w-20 md:h-20 my-5 mx-10 bg-gray-100 rounded-full grid self-center">
+        <div class="fixed right-0 bottom-0 lg:inset-y-72 w-14 h-14 md:w-20 md:h-20 my-5 mx-10 bg-gray-100 hover:bg-gray-200 rounded-full grid self-center">
           <Link href="/factory-method-pattern">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4">
               <img class="rounded px-5 py-5 md:px-7 md:py-7" alt="Lightbulb" src="/next.svg" />
@@ -33,9 +33,9 @@ export default function FirstPost() {
         <section class="text-gray-600 body-font">
           <div class="container pt-24 px-5 mx-auto pb-0">
             <div class="text-center">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Abstract Factory Pattern</h1>
+              <h1 class="sm:text-5xl text-4xl font-medium title-font text-gray-900">Abstract Factory Pattern</h1>
               <Link href="/creational-patterns">
-                <a class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest my-4">CREATIONAL PATTERNS</a>
+                <a class="inline-block py-1 px-2 rounded bg-indigo-50 hover:bg-indigo-100 text-indigo-500 text-xs font-medium tracking-widest my-4">CREATIONAL PATTERNS</a>
               </Link>
               <p class="text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.</p>
               <div class="flex mt-6 justify-center">
