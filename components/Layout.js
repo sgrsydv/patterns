@@ -17,6 +17,7 @@ const contentStyle = {
 };
 
 const Layout = props => (
+  
   <div className="Layout" style={layoutStyle}>
     <Header />
     <div className="Content" style={contentStyle}>
