@@ -5,6 +5,8 @@ import Layout from '../../components/Layout'
 import LeftButton from '../../components/LeftButton'
 import RightButton from '../../components/RightButton'
 import Title from '../../components/Title'
+import Wikipedia from '../../components/Wikipedia'
+import Line from '../../components/Line'
 
 export default function FirstPost() {
   return (
@@ -19,7 +21,9 @@ export default function FirstPost() {
         <LeftButton route="/abstract-factory-pattern" />
         <RightButton route="" />
         <Content>
-        <Title name="Factory Method Pattern" description="The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes." />
+          <Title name="Factory Method Pattern" description="In class-based programming, the factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created." />
+          <Line/>
+          <Wikipedia/>
         </Content>
       </main>
 
