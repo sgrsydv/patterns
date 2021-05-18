@@ -17,8 +17,8 @@ export default function FirstPost() {
       </Head>
 
       <main>
-      <LeftButton route="" />
-          <RightButton route="/factory-method-pattern" />
+        <LeftButton route="" />
+        <RightButton route="/factory-method-pattern" />
         <Content>
           <Title name="Abstract Factory Pattern" description="The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes." />
 
